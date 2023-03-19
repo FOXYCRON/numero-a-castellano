@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        function convertirCastellano(x) {
+            if (x == 1) {
+                return "uno";
+            } else {
+                if (x == 2) {
+                    return "dos";
+                } else {
+                    if (x == 3) {
+                        return "tres";
+                    } else {
+                        if (x == 4) {
+                            return "cuatro";
+                        } else {
+                            if (x == 5) {
+                                return "cinco";
+                            } else {
+                                if (x == 6) {
+                                   return "seis";
+                                          } else {
+                                            if (x == 7) {
+                                                return "siete";
+                                                     } else {
+                                                        if (x == 8) {
+                                                            return "ocho";
+                                                                       } else {
+                                                                        if (x == 9) {
+                                                                            return "nueve";
+                                                                               } else {
+                                                                                if (x == 10) {
+                                                                                   return "diez";
+                                                                                       } else {
+                                                                                       return "valor incorrecto"; 
+                                        }                                                     
+                                    }
+                                 }
+                              }                                         
+                          }                                                       
+                       }
+                     }
+                  }
+               }
+            }
+   
+     }
+        let valor = parseInt(prompt("Ingrese un valor entre 1 y 10"));
+        let r = convertirCastellano(valor);
+        document.write(r);
+    </script>
+
+</body>
+
+</html>
